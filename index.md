@@ -11,7 +11,7 @@ The process is this:
 3. Select just the pixels that represent the sky. This is done in a dumb way, since the camera is not mobile. I literally entered values to pick out a large rectangle of the sky. The camera has a good view of the sky, so a big sample is taken.
 4. Calculate the average Reg, Green and Blue values of these pixels.
 5. Again, using Pillow, [generate a small image of this colour](https://pillow.readthedocs.io/en/3.0.x/reference/Image.html#PIL.Image.new) and save it locally.
-6. Using the Red, Green, Blue values, [send these over](https://www.w3schools.com/python/module_requests.asp) to the amazing color-naming API at [https://github.com/meodai/color-names], and get the response. [Read the name from the JSON it sends back.](https://developer.rhino3d.com/guides/rhinopython/python-xml-json/)
+6. Using the Red, Green, Blue values, [send these over](https://www.w3schools.com/python/module_requests.asp) to the amazing color-naming API at https://github.com/meodai/color-names, and get the response. [Read the name from the JSON it sends back.](https://developer.rhino3d.com/guides/rhinopython/python-xml-json/)
 7. [Connect to Twitter using their developer API and Twython](https://www.instructables.com/id/Raspberry-Pi-Twitterbot/)
 8. [Upload the small colour image we made before.](https://twython.readthedocs.io/en/latest/usage/advanced_usage.html#updating-status-with-image)
 9. [Read in a text file](https://www.w3schools.com/python/ref_file_readlines.asp) containing a load of prewritten tweets that have a marker where the colour name should be.
