@@ -15,7 +15,7 @@ The process is this:
 7. [Connect to Twitter using their developer API and Twython](https://www.instructables.com/id/Raspberry-Pi-Twitterbot/)
 8. [Upload the small colour image we made before.](https://twython.readthedocs.io/en/latest/usage/advanced_usage.html#updating-status-with-image)
 9. [Read in a text file](https://www.w3schools.com/python/ref_file_readlines.asp) containing a load of prewritten tweets that have a marker where the colour name should be.
-10. Replace the marker with the colour name generated earlier.
+10. [Replace](https://www.geeksforgeeks.org/python-string-replace/) the marker with the colour name generated earlier.
 11. Post the tweet with the new message.
 
 
